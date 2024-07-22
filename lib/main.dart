@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mitch_koko_full_flutter_beginner_course/pages/first_page.dart';
-import 'package:mitch_koko_full_flutter_beginner_course/pages/home_page.dart';
-import 'package:mitch_koko_full_flutter_beginner_course/pages/settings_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,11 +17,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: FirstPage(),
-      routes: {
-        '/firstpage' : (context) => FirstPage(),
-        '/homepage' : (context) => HomePage(),
-        '/settingspage' : (context) => SettingsPage(),
-      },
     );
   }
 }
