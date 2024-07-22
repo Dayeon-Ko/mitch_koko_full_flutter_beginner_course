@@ -19,11 +19,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: FirstPage(),
-      routes: {
-        '/firstpage' : (context) => FirstPage(),
-        '/homepage' : (context) => HomePage(),
-        '/settingspage' : (context) => SettingsPage(),
-      },
     );
   }
 }
